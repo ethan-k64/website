@@ -12,6 +12,10 @@ html,body {
     transition: opacity 0.5s;
   }
   
+  a:hover {
+    opacity: 1;
+  }
+  
   .active {
     opacity: 1;
   }
