@@ -12,7 +12,7 @@ header {
 }
 
 ul {
-  padding: 0px;
+  padding-top: none;
 }
 
 a {
