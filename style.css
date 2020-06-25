@@ -10,7 +10,7 @@ html,body {
 
 header {
   background: rgb(51, 51, 51);
-  border-bottom: rgb(255, 255, 255) 3px solid;
+  border-bottom: rgb(255, 255, 255) 2px solid;
 }
 
 header ul {
@@ -19,7 +19,6 @@ header ul {
 }
 
 header li {
-  float: left;
   display: inline;
   padding: 0px 10px 0 10px;
 }
@@ -34,7 +33,7 @@ header a {
 }
 
 header nav {
-  float: center;
+  text-align: center;
 }
 
 a:hover {
