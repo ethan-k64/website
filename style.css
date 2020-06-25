@@ -13,6 +13,7 @@ a {
   padding: 25px;
   opacity: 0.3;
   transition: opacity 0.5s;
+  display: inline;
 }
 
 a:hover {
@@ -28,5 +29,4 @@ a:hover {
   margin-right: auto;
   padding: 5px 0px;
   background-color: rgb(51, 51, 51);
-  display: inline;
 }
