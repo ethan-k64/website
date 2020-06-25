@@ -5,6 +5,7 @@ html,body {
   margin: 0px;
   background-color: rgb(0, 0, 0);
   margin-top: 0px;
+  overflow: hidden;
 }
 
 header {
@@ -12,19 +13,24 @@ header {
   border-bottom: rgb(255, 255, 255) 5px solid;
 }
 
-ul {
+header ul {
   padding: 0px;
   margin: 0px;
 }
 
-a {
+header li {
+  float: left;
+  display: inline;
+  padding: 0px 10px 0 10px;
+}
+
+header a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 32px;
   opacity: 0.3;
   transition: opacity 0.5s;
-  display: inline;
 }
 
 a:hover {
