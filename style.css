@@ -1,3 +1,4 @@
+/*Setup*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 /*Global Rulesets*/
@@ -51,8 +52,9 @@ header nav {
 /*Aside Rulesets*/
 aside {
   background: rgb(51, 51, 51);
-  border-right: rgb(255, 255, 255);
-  border-bottom: rgb(255, 255, 255);
+  border-right: rgb(255, 255, 255) 2px solid;
+  border-bottom: rgb(255, 255, 255) 2px solid;
+  width: fit-content;
 }
 
 aside ul {
@@ -61,7 +63,7 @@ aside ul {
 }
 
 aside li {
-  padding: 10px 0px 10px 0px;
+  padding: 10px 20px 10px 20px;
 }
 
 aside a {
