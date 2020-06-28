@@ -54,7 +54,8 @@ aside {
   background: rgb(51, 51, 51);
   border-right: rgb(255, 255, 255) 2px solid;
   border-bottom: rgb(255, 255, 255) 2px solid;
-  width: fit-content;
+  /*width: fit-content;*/
+  width: 10%;
 }
 
 aside ul {
