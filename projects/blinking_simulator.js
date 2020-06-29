@@ -32,9 +32,9 @@ function draw() {
   
   // Blink Detection
   if (mouseIsPressed) {
-    document.getElementById("stickman").src = "./assets/blink.gif";
+    document.getElementById("stickman").src = "./projects/assets/blink.gif";
   } else {
-    document.getElementById("stickman").src = "./assets/stickman.gif";
+    document.getElementById("stickman").src = "./projects/assets/stick.gif";
   }
 }
 
