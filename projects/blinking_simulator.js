@@ -1,9 +1,14 @@
 // Global Variables
 let blinks = 0;
 let col;
+let stick;
 
 function setup() {
   const cnv = createCanvas(400, 400);
+  cnv.position(displayWidth / 2 - 200, 100);
+  
+  stick = select("#stick");
+  stick.position(displayWidth / 2 - 100, 200);
   
   col = color(255);
 }
@@ -32,9 +37,9 @@ function draw() {
   
   // Blink Detection
   if (mouseIsPressed) {
-    document.getElementById("stickman").src = "./assets/blink.gif";
+    document.getElementById("stick").src = "./assets/blink.gif";
   } else {
-    document.getElementById("stickman").src = ".assets/stick.gif";
+    document.getElementById("stick").src = "./assets/stick.gif";
   }
 }
 
