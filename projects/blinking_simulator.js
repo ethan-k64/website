@@ -5,8 +5,8 @@ let stick;
 let blink;
 
 function preload() {
-  stick = loadImage("assets/stick.gif");
-  blink = loadImage("assets/blink.gif");
+  stick = loadImage("assets/stick.png");
+  blink = loadImage("assets/blink.png");
 }
 
 function setup() {
