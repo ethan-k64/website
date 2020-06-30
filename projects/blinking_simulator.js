@@ -12,6 +12,7 @@ function preload() {
 function setup() {
   const cnv = createCanvas(400, 400);
   cnv.position(displayWidth / 2 - 200, 100);
+  cnv.style("border", "rgb(255, 255, 255) 2px solid");
   
   col = color(255);
 }
