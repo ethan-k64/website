@@ -10,7 +10,7 @@ function setup() {
   stick = select("#stick");
   stick.style("position", "absolute");
   stick.style("top", "200");
-  stick.style("left", displayWidth / 2 - 100);
+  stick.style("left", "50%");
   
   col = color(255);
 }
