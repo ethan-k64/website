@@ -8,7 +8,9 @@ function setup() {
   cnv.position(displayWidth / 2 - 200, 100);
   
   stick = select("#stick");
-  stick.position(displayWidth / 2 - 100, 200);
+  stick.style("position", "absolute");
+  stick.style("top", "200");
+  stick.style("left", displayWidth / 2 - 100);
   
   col = color(255);
 }
