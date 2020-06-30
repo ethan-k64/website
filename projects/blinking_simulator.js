@@ -2,13 +2,16 @@
 let blinks = 0;
 let col;
 let stick;
+let blink;
+
+function preload() {
+  stick = loadImage("assets/stick.gif");
+  blink = loadImage("assets/blink.gif");
+}
 
 function setup() {
   const cnv = createCanvas(400, 400);
   cnv.position(displayWidth / 2 - 200, 100);
-  
-  stick = select("#stick");
-  stick.position(displayWidth / 2 - 100, 200);
   
   col = color(255);
 }
@@ -37,9 +40,9 @@ function draw() {
   
   // Blink Detection
   if (mouseIsPressed) {
-    document.getElementById("stick").src = "./assets/blink.gif";
+    image(blink, 100, 100, 175, 175);
   } else {
-    document.getElementById("stick").src = "./assets/stick.gif";
+    image(stick, 100, 100, 175, 175);
   }
 }
 
