@@ -40,16 +40,3 @@ header nav {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-/*Section Rulesets*/
-section img {
-  width: 175px;
-  height: 175px;
-  position: absolute;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none; 
-  user-select: none; 
-}
