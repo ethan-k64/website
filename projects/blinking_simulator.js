@@ -11,9 +11,9 @@ function preload() {
 
 function setup() {
   const cnv = createCanvas(400, 400);
-  cnv.style("padding-bottom", "25%");
-  cnv.style("margin-left", "25%");
-  cnv.style("margin-right", "25%");
+  cnv.style("padding-bottom", "100");
+  cnv.style("margin-left", "50%");
+  cnv.style("margin-right", "50%");
   
   col = color(255);
 }
