@@ -1,14 +1,10 @@
 // Global Variables
 let blinks = 0;
 let col;
-let stick;
 
 function setup() {
   const cnv = createCanvas(400, 400);
   cnv.position(displayWidth / 2 - 200, 100);
-  
-  stick = select("#stick");
-  stick.position(displayWidth / 2 - 100, 200);
   
   col = color(255);
 }
