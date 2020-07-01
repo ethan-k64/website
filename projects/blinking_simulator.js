@@ -11,10 +11,10 @@ function preload() {
 
 function setup() {
   const cnv = createCanvas(400, 400);
-  cnv.style("color", "rgb(51, 51, 51) 3px solid");
+  cnv.style("bacground-color", "rgb(51, 51, 51) 3px solid");
   cnv.style("padding", "5% 200px 200px 5%");
-  //cnv.style("margin-left", "40%");
-  //cnv.style("margin-right", "40%");
+  cnv.style("margin-left", "auto");
+  cnv.style("margin-right", "auto");
   
   col = color(255);
 }
