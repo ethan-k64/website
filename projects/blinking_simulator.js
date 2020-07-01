@@ -3,6 +3,7 @@ let blinks = 0;
 let col;
 let stick;
 let blink;
+let cnv;
 
 function preload() {
   stick = loadImage("assets/stick.png");
@@ -10,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-  const cnv = createCanvas(400, 400);
+  cnv = createCanvas(400, 400);
   
   col = color(255);
 }
