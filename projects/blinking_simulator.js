@@ -11,6 +11,7 @@ function preload() {
 
 function setup() {
   const cnv = createCanvas(400, 400);
+  cnv.position(windowWidth / 2 - 200, 100);
   
   col = color(255);
 }
