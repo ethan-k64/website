@@ -1,4 +1,5 @@
 // Variables
+let cnv;
 let value = [0, 0, 0];
 let trans;
 let saveButton;
@@ -20,8 +21,9 @@ let s;
 
 function setup() {
   // Canvas Props
-  const cnv = createCanvas(canDimensions, canDimensions);
+  cnv = createCanvas(canDimensions, canDimensions);
   cnv.position(displayWidth / 2 - 300, displayHeight / 2 - 450);
+  cnv.style("border", `rgb(${value[0].toString()}, ${value[1].toString()}, ${value[2].toString()}) 2px solid`);
   cnv.drop(gotFile);
 
   // Console
@@ -105,8 +107,7 @@ function draw() {
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
 
-  // Call Functions
-  borders();
+  cnv.style("border", `rgb(${value[0].toString()}, ${value[1].toString()}, ${value[2].toString()}) 2px solid`);
 }
 
 
@@ -129,14 +130,4 @@ function gotFile(file) {
   img.hide();
   
   image(img, 0, 0, width, height);
-}
-
-function borders() {
-  fill(value[0], value[1], value[2]);
-  noStroke();
-
-  rect(0, 200, 2, 800);
-  rect(600, 200, 2, 800);
-  rect(300, 600, 600, 2);
-  rect(300, 0, 600, 2);
 }
