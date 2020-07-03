@@ -1,8 +1,3 @@
-/*
-*Made By Ethan Knotts
-*Please don't steal my code.
-*/
-
 // Variables
 let value = [0, 0, 0];
 let trans;
@@ -28,11 +23,10 @@ function setup() {
   const cnv = createCanvas(canDimensions, canDimensions);
   cnv.position(displayWidth / 2 - 300, displayHeight / 2 - 450);
   cnv.drop(gotFile);
-  
+
   // Console
-  console.log(`Made By Ethan Knotts`);
-  console.log(`Display Width: ${displayWidth}`);
-  console.log(`Display Height: ${displayHeight}`);
+  console.log("Display Width: " + displayWidth);
+  console.log("Display Height: " + displayHeight);
 
   // Extra Props
   ellipseMode(RADIUS);
@@ -61,7 +55,7 @@ function setup() {
   bslider = createSlider(0, 255, 0, 1);
   bslider.position(displayWidth / 6.5, displayHeight / 2 - 100);
 
-  tslider = createSlider(0, 255, 0, 1);
+  tslider = createSlider(0, 255, 255, 1);
   tslider.position(displayWidth / 6.5, displayHeight / 2);
 
   r = createP();
