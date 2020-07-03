@@ -42,7 +42,7 @@ function setup() {
   saveButton.position(displayWidth / 2 - 30, displayHeight / 2 + 200);
 
   clearButton = createButton('Clear');
-  clearButton.mousePressed(clearCanvas);
+  clearButton.mousePressed(clear());
   clearButton.position(displayWidth / 2 + 20, displayHeight / 2 + 200);
 
   slider = createSlider(1, 100, 5, 1);
@@ -114,12 +114,8 @@ function draw() {
 // Functions
 function saveDrawing() {
   cnv.style("border", `rgba(${value[0].toString()}, ${value[1].toString()}, ${value[2].toString()}, 0) 2px solid`);
-  background(51, 51, 51, 0);
+  //background(51, 51, 51, 0);
   save('drawing.png');
-}
-
-function clearCanvas() {
-  background(51);
 }
 
 function gotFile(file) {
