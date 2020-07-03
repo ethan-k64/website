@@ -34,7 +34,7 @@ header li {
   padding: 0px 15px 0 15px;
 }
 
-header li .normalText {
+header li.normalText {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
