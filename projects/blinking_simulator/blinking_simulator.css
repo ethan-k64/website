@@ -40,21 +40,6 @@ header li {
   padding: 0px 15px 0 15px;
 }
 
-header a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 32px;
-  opacity: 0.5;
-  transition: opacity 0.3s;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 header nav {
   text-align: center;
   padding-top: 15px;
