@@ -113,11 +113,7 @@ function draw() {
 
 // Functions
 function saveDrawing() {
-  fill(51);
-  rect(0, 200, 2, 800);
-  rect(600, 200, 2, 800);
-  rect(300, 600, 600, 2);
-  rect(300, 0, 600, 2);
+  cnv.style("border", `rgba(${value[0].toString()}, ${value[1].toString()}, ${value[2].toString()}, 0) 2px solid`);
   save('drawing.png');
 }
 
