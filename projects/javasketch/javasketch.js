@@ -52,13 +52,13 @@ function setup() {
   slider = createSlider(1, 100, 5, 1);
   slider.position(displayWidth / 2 - 50, displayHeight / 2 + 250);
 
-  rslider = createSlider(0, 255, 0, 1);
+  rslider = createSlider(0, 255, 255, 1);
   rslider.position(displayWidth / 6.5, displayHeight / 2 - 300);
 
-  gslider = createSlider(0, 255, 0, 1);
+  gslider = createSlider(0, 255, 255, 1);
   gslider.position(displayWidth / 6.5, displayHeight / 2 - 200);
 
-  bslider = createSlider(0, 255, 0, 1);
+  bslider = createSlider(0, 255, 255, 1);
   bslider.position(displayWidth / 6.5, displayHeight / 2 - 100);
 
   tslider = createSlider(0, 255, 255, 1);
