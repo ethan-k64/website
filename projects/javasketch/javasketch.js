@@ -114,6 +114,7 @@ function draw() {
 // Functions
 function saveDrawing() {
   cnv.style("border", `rgba(${value[0].toString()}, ${value[1].toString()}, ${value[2].toString()}, 0) 2px solid`);
+  background(51, 51, 51, 0);
   save('drawing.png');
 }
 
