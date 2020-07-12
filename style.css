@@ -48,7 +48,7 @@ header li.title {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 32px;
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 0.3s;
 }
 
